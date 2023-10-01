@@ -1,0 +1,178 @@
+#image_banner{
+	margin-top: 70px;
+	margin-bottom: 25px
+}
+
+#page-brand{
+	/*font-family: 'Cabin Sketch', cursive;*/
+	font-family: 'Special Elite', cursive;
+	font-weight: bold;
+	font-size: 18px;
+	padding-top: 19px;
+}
+#page-brand:hover{
+	text-shadow: 1px 1px #38cced;
+}
+
+#main-menue-item{
+	font-weight: bold;
+	font-size: 16px;
+	padding-top: 2px;
+}
+
+
+/********** Start: Fix Banner Image and Menu Items **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+	#main-menue-item{
+		font-size: 0.71em;
+		padding-top: 2px;
+	}
+	#page-brand{
+		/*font-family: 'Cabin Sketch', cursive;*/
+		font-family: 'Special Elite', cursive;
+		font-weight: normal;
+		font-size: 14px;
+		padding-top: 23px;
+	}
+	#image_banner{
+		margin-top: 66px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	#main-menue-item{
+		font-size: 0.45em;
+		padding-top: 2px;
+	}
+	#page-brand{
+		/*font-family: 'Cabin Sketch', cursive;*/
+		font-family: 'Special Elite', cursive;
+		font-weight: normal;
+		font-size: 8px;
+		padding-top: 28px;
+	}
+	#image_banner{
+		margin-top: 66px;
+	}
+}
+
+@media (max-width: 767px) {
+	#main-menue-item{
+		font-size: 0.9em;
+		padding-top: 0px;
+	}
+	#page-brand{
+		/*font-family: 'Cabin Sketch', cursive;*/
+		font-family: 'Special Elite', cursive;
+		font-weight: normal;
+		font-size: 18px;
+		padding-top: 24px;
+	}
+	#image_banner{
+		margin-top: 66px;
+	}
+}
+/********** End: Fix Banner Image and Menu Items **********/
+
+
+/********** Start: Fix Footer Section **********/
+#footer-section {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;   /* Height of the footer */
+   text-align: center;
+
+}
+/********** End: Fix Footer Section **********/
+
+
+/********** Start: Fix Hyperlink Color *********/
+/* unvisited link */
+a {
+  color: blue;
+}
+
+/* selected link */
+a:active {
+  color: red;
+}
+/********** End: Fix Hyperlink Color **********/
+
+/********** Start: Button text color fix ******/
+
+/********** End: Button text color fix ********/
+/********** Start: Fix Side Sections **********/
+#news-section ul {
+    padding: 0;
+    /*list-style: none;*/
+}
+#news-section ul>li{
+    padding-bottom: 10px;
+    text-align: justify;
+    /*list-style: none;*/
+}
+
+#deadlines-section ul{
+	padding: 0;
+    list-style: none;
+}
+/********** End: Fix Side Sections **********/
+
+
+/********** Start: Fix sections overlap (main body and footer) **********/
+.row{
+	padding-top: 12px;
+}
+/********** Eend: Fix sections overlap (main body and footer) **********/
+
+
+
+/********** Start: Fix the tooltip  issue (used in deadlines.html)**********/
+.tooltip-new {
+		    position: relative;
+		    display: inline-block;
+		    border-bottom: 1px dotted #0849b2;
+		    margin: 5px 0px 0px 15px;
+		    /*color: #0849b2;*/
+}
+
+.tooltip-new .tooltiptext-new {
+    visibility: hidden;
+    width: auto;
+    background-color: #f2f2f2;
+    /*color: #0849b2;*/
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+}
+
+.tooltip-new:hover .tooltiptext-new {
+    visibility: visible;
+}
+/********** End: Fix the tooltip  issue (used in deadlines.html)**********/
+
+/********** Start: Add smaller font for notes **********/
+.text-note{
+	font-size: 0.8em;
+	font-style: italic;
+}
+/********** End: Add smaller font for notes**********/
+
+
+/********** Start: Fix the anchor (jump to) issue by adding an offset**********/
+.jump2 {
+    display: block;
+    position: relative;
+    top: -150px;
+    visibility: hidden;
+}
+/********** End: Fix the anchor (jump to) issue by adding an offset**********/
+
+
