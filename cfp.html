@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>PETRA'23 @ Corfu, Greece</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/banner-styles.css">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Cabin+Sketch:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Special+Elite" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700" rel="stylesheet">
+
+
+</head>
+<body>
+	<header>
+		<!-- The Menu Bar is loaded automatically from menu-bar.html-->
+		<!-- The selected/active menues are updated at the end of the file -->
+		<div id="menu-bar-section"></div>
+
+		<!-- The Banners Section is loaded automatically from banner-control.html-->
+		<div id="banners-section"></div>		
+
+
+	</header>
+	
+	<!-- Body: News + Main Content + Deadlines -->
+	<section class="container">
+		<div class= "row">
+
+			<div class="col-md-3 col-sm-3">
+				<!-- The News Section is loaded automatically from news.html-->
+				<div id="news-section"></div>		
+			</div>
+
+			<div class="col-md-6 col-sm-6">
+				<div>
+
+					<h4>Call for Papers</h4>
+			        <p class="text-justify">We would like to invite researchers working in the areas of Human-Computer Interaction, healthcare and assisted living to submit their original research findings to the PETRA conference.</p>
+
+			        <p class="text-justify">Please check the <a href="guide.html"> submission guidelines</a> and the <a href="deadlines.html"> deadlines</a> for further details.</p>
+					<!--
+			        <p class="text-justify"><img src="img/icps.jpg" style="max-width: 130px; float: right; " > The PETRA 2022 proceedings will be published in the ACM Digital Library as part of the ACM ICPS program. The ISBN number assigned to PETRA '22 is 978-1-4503-8792-7.</p>
+					-->
+			       <!-- The conference proceedings, including the workshop papers, will be a volume in the ACM International Conference Proceedings Series in the ACM Digital Library. The ISBN number assigned to PETRA '21 is 978-1-4503-8792-7. -->
+
+             		
+            		
+
+
+<!-- 		          	<a href="../docs/flyer.pdf" target="_blank">Download Flyer (PDF)</a> -->
+
+
+			        <p><strong>Research areas of interest</strong> include, but are not limited to:</p>
+			        <ul>
+			          <li>Healthcare Informatics</li>
+			          <li>Big Data Management</li>
+			          <li>Data Privacy and Remote Health Monitoring</li>
+			          <li>Games for Physical Therapy and Rehabilitation</li>
+			          <li>User Interface Design and Usability</li>
+			          <li>Reasoning Systems and Machine Learning</li>
+			          <li>Affective Computing</li>
+			          <li>Cyberlearning : Theory, Methods and Technologies</li>
+			          <li>Human-Robot Interaction</li>
+			          <li>Human-Centered Computing</li>
+			          <li>Human Monitoring</li>
+			          <li>Haptics</li>
+			          <li>Gesture and Motion Tracking</li>
+			          <li>Cognitive Modeling</li>
+			          <li>Wearable Computing</li>
+			          <li>Interactions and the Internet of Things (IoT)</li>
+			        </ul>
+
+			        <p><strong>Applications</strong> include, but are not limited to:</p>
+			        <ul>
+			          <li>Sensor networks for pervasive health care</li>
+			          <li>Mobile and wireless technologies</li>
+			          <li>Healthcare privacy and data security</li>
+			          <li>Smart rehabilitation systems</li>
+			          <li>Game design for cognitive assessment and social interaction</li>
+			          <li>Behavior monitoring systems</li>
+			          <li>Computer vision in healthcare</li>
+			          <li>Virtual and augmented reality environments</li>
+			          <li>Ambient assisted living</li>
+			          <li>Navigation systems</li>
+			          <li>Collaboration and data sharing</li>
+			          <li>Wearable devices</li>
+			          <li>Drug delivery evaluation</li>
+			          <li>Vocational safety and health monitoring</li>
+			          <li>Eyetracking</li>
+			          <li>Telemedicine and biotechnology</li>
+			          <li>Technologies for senior living</li>
+			          <li>Social impact of pervasive technologies</li>
+			          <li>Intelligent assistive environments</li>
+			          <li>Technologies to provide assessment and intervention for Stroke recovery, spinal cord injury, and multiple sclerosis</li>
+			          <li>Technologies for improving quality of daily living</li>
+			          <li>Robotics research for rehabilitation and tele-rehabilitation</li>
+			          <li>Innovative design for smart wheelchairs and smart canes</li>
+			          <li>Computer based training systems for artificial limbs and prosthetics</li>
+			          <li>Disability computing: Smart systems to assist persons with visual, hearing, and loss of limb functionalities</li>
+			          <li>Smart Cities of the Future</li>
+			          <li>Assistive Technologies for Urban Environments</li>
+			        </ul>
+			        <br>
+					
+				</div>
+			</div>
+
+			<div class="col-md-3 col-sm-3">
+				<!-- The Approacing Deadlines Section is loaded automatically from approach.html-->
+				<div id="deadlines-section"></div>		
+			</div>
+
+		</div>
+	</section>
+
+	
+	<!-- The Footer Section -->
+	<div class="container">
+		<div class= "row">
+			<div class="col-sm-12">
+				<div class="row">
+					<!-- The Footer Section is loaded automatically from footer.html-->
+					<div id="footer-section"></div>	
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- jQuery (Bootstrap JS plugins depend on it) -->
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+
+	<!-- Make the selected elements in the menu bar active -->
+	<script>	
+		window.onload = function () {
+			$("#callsID").addClass("active");
+			$("#cfpID").addClass("active");
+		}
+	</script>
+
+	
+	
+
+</body>
+</html>
