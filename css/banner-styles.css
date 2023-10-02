@@ -115,13 +115,13 @@ Code snippet by maridlcrmn (Follow me on Twitter @maridlcrmn) for Bootsnipp.com
   background-repeat: no-repeat;
 }
 .fade-carousel .slides .slide-1 {
-  background-image: url(../img/banner1.jpg); 
+  background-image: url(../img/Banner1.png); 
 }
 .fade-carousel .slides .slide-2 {
-  background-image: url(../img/banner2.jpg);
+  background-image: url(../img/Banner2.png);
 }
 .fade-carousel .slides .slide-3 {
-  background-image: url(../img/banner3.jpg);
+  background-image: url(../img/Banner3.png);
 }
 
 /********************************/
