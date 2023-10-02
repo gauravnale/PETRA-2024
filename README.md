@@ -4,6 +4,7 @@ This README outlines the progress in updating the PETRA website for the 2024 con
 
 ### Completed Tasks
 - [x] Change PETRA 2023 to 2024
+- [x] Change Banner from 2023 to 2024
 - [x] Change Announcements
 - [x] Change Current Deadlines
 - [x] Calls Flyer (PDF)
