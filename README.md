@@ -28,6 +28,6 @@ This README outlines the progress in updating the PETRA website for the 2024 con
   - [ ] [Call for Demo Papers](http://www.petrae.org/demo.html)
   - [ ] [Our Sponsors & Call for Sponsors](http://www.petrae.org/sponsor.html)
 - [ ] [Past Conferences](http://www.petrae.org/past.html#)
-  - [ ] [Awards](http://www.petrae.org/awards.html)
+  - [ ] [Awards](http://www.petrae.org/awards.html)(In Progress)
   - [x] Proceedings and Programs
 
